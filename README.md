@@ -20,7 +20,7 @@ Basically, the only thing you'd want to change is the port or name of the upload
 It's only useful if you are using a domain for your server. Create a new nginx configuration file.
 
 ```
-> nano /etc/nginx/sites-available/hosts  # change the name to your liking
+> nano /etc/nginx/sites-available/sharex  # change the name to your liking
 ```
 
 Then, you can just copy and paste my configuration.
