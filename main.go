@@ -49,7 +49,7 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fileURL := "https://host.voltagexd.gay/uploads/" + filepath.Base(fileHeader.Filename)
+	fileURL := "http://youripordomain.here/uploads/" + filepath.Base(fileHeader.Filename)
 	w.Write([]byte(fileURL))
 }
 
